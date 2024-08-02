@@ -1,0 +1,62 @@
+*
+{background-color:aliceblue;
+box-sizing: border-box;}
+
+    h4{
+        font-style: bold;
+    }
+    .TOP-BAR{    
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly
+    }
+    
+    .TOP-BAR{ 
+    background:#1e90ff;}
+
+
+    .second-bar{
+        display: flex;
+        flex-direction: row;
+        justify-content:space-evenly
+    }
+
+    .synopsis{
+    display: flex;
+    margin-right: 50%;
+    justify-content: left;    
+    }
+
+    .Alternative-Anime{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    }
+
+    div.gallery {
+        border: 1px solid #ccc;
+      }
+      
+      div.gallery:hover {
+        border: 1px solid #777;
+      }
+      
+      div.gallery img {
+        width: 100%;
+        height: auto;
+      }
+      
+      div.desc {
+        padding: 15px;
+        text-align: center;
+      }
+      
+      * {
+        box-sizing: border-box;
+      }
+      
+      .Alternative-Anime {
+        padding: 0 6px;
+        float: left;
+        width: 24.99999%;
+      }
