@@ -8,17 +8,18 @@ box-sizing: border-box;}
     .TOP-BAR{    
         display: flex;
         flex-direction: row;
-        justify-content: space-evenly
+        justify-content:space-around
     }
     
-    .TOP-BAR{ 
-    background:#1e90ff;}
-
+    #bones{
+      background-color: steelblue;
+    }
+    .tags{ margin-right: 50%; }
 
     .second-bar{
         display: flex;
         flex-direction: row;
-        justify-content:space-evenly
+        justify-content:space-around
     }
 
     .synopsis{

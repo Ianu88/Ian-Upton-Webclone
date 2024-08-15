@@ -1,0 +1,158 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: #f06424;
+    color: #ffffff;
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+header .logo span {
+    color: #e0e0e0;
+}
+
+header nav a {
+    color: #ffffff;
+    margin-right: 15px;
+    text-decoration: none;
+}
+
+header .user-info {
+    display: flex;
+    align-items: center;
+}
+
+header .user-info .notifications {
+    background-color: #ff0000;
+    border-radius: 50%;
+    padding: 5px 10px;
+    margin-right: 10px;
+    color: #ffffff;
+}
+
+header .user-info a {
+    color: #ffffff;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+main {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 0 15px;
+}
+
+.anime-details {
+    display: flex;
+    justify-content: space-between;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.anime-info {
+    flex: 3;
+}
+
+.anime-info h1 {
+    margin: 0;
+    font-size: 28px;
+    color: #333333;
+}
+
+.anime-info h2 {
+    font-size: 18px;
+    color: #666666;
+    margin-bottom: 20px;
+}
+
+.anime-info .details {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.anime-info .detail-item {
+    margin-right: 15px;
+    color: #333333;
+}
+
+.anime-info p {
+    color: #333333;
+    line-height: 1.6;
+}
+
+.anime-image {
+    flex: 1;
+    text-align: center;
+}
+
+.anime-image img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.screenshots-btn {
+    background-color: #f06424;
+    color: #ffffff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.tags {
+    margin-top: 20px;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.tags strong {
+    display: block;
+    margin-bottom: 10px;
+    color: #333333;
+}
+
+.tags span {
+    display: inline-block;
+    background-color: #f06424;
+    color: #ffffff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+}
+
+.user-stats {
+    margin-top: 20px;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.user-stats strong {
+    display: block;
+    margin-bottom: 10px;
+    color: #333333;
+}
+
+.user-stats p {
+    color: #666666;
+}
