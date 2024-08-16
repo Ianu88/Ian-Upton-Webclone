@@ -1,33 +1,31 @@
 *
 {background-color:aliceblue;
 box-sizing: border-box;}
-
+/* to make the title really stand out */
     h4{
         font-style: bold;
     }
+  /* uncertain if this worked, but I made a strong attempt */
     .TOP-BAR{    
         display: flex;
         flex-direction: row;
         justify-content:space-around
     }
-    
-    #bones{
-      background-color: steelblue;
-    }
+  /* deleted an inefective piece of code that just sat here */
     .tags{ margin-right: 50%; }
-
+/* as with TOP-BAR, don't know if it helps but I am keeping both just in case */
     .second-bar{
         display: flex;
         flex-direction: row;
         justify-content:space-around
     }
-
+    /* used the margin-right feature of flexbox to better align the font */
     .synopsis{
     display: flex;
     margin-right: 50%;
     justify-content: left;    
     }
-
+/* got this from w3, it appears very effective. */
     .Alternative-Anime{
     display: flex;
     flex-direction: row;
